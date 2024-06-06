@@ -1,0 +1,145 @@
+body{
+    font-family: 'Montressat'  'Rubik Iso', cursive;;
+}
+.big-heading{
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight:bolder;
+    color:white;
+}
+h2{
+    font-size: 2.5rem;
+    line-height: 1.25;
+}
+h3{
+    margin:1em;
+    font-size: 1.25rem;
+    font-weight: 900;
+
+}
+#title{
+    background-color: #ff4c68;
+    
+    
+    
+}
+
+.container-fluid{
+    padding: 2% 15% 7%;
+  
+}
+.title-image{
+    width: 15em;
+    transform: rotate(25deg);
+    position: absolute;
+    
+   
+}
+@media(max-width:1040px){
+    .row{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0deg);
+    }
+}
+   
+    
+.navbar-brand{
+    font-family: 'Ubuntu',cursive;
+    padding-bottom: 2rem;
+}
+.nav-item{
+    padding: 0 16px 0 16px;
+}
+.nav-link{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:1.25rem;
+}
+.dowload-button{
+    margin:10px 5px 10px 0;
+}
+/*features*/
+#features{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: white;
+    position:relative;
+    z-index:1;
+  
+   
+}
+
+.features-box{
+    padding: 5%;
+}
+.features-p{
+    color:gray;
+}
+.icon{
+    color:#ef8172;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+/*testimonials*/
+#testimonials{
+  
+    text-align: center;
+    background-color: #ef8172;
+    color:white;
+}
+
+
+.testimonials-img{
+    width: 10%;
+    border-radius: 100%;
+    margin:20px;
+}
+/*press*/
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin:20px 20px 50px;
+
+}
+.carousel-item{
+    padding: 7% 15%;
+
+}
+
+/*pricing*/
+#pricing{
+    text-align: center;
+    padding:10%;
+}
+.card-pricing{
+    padding: 3% 3%;
+    text-align: center;
+}
+/*call to action*/
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    
+}
+    
+.cta-h3{
+    color: white;
+    line-height: 1.25;
+    padding:3% 15%;
+    font-size: 2.5rem;
+}
+.cta-btn{
+    margin-bottom: 3%;
+}
+
+/*footer*/
+#footer{
+    text-align: center;
+} 
